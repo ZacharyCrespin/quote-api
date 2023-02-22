@@ -6,7 +6,7 @@
 [api.quotes.zacharyc.site](https://api.quotes.zacharyc.site/)
 
 ## Add your quote
-Add your quote to the end of `quotes.db` with the format:
+Add your quote to the end of `quotes.json` with the format:
 ```
 {
   "quote": "Quiet people have the loudest minds.",
