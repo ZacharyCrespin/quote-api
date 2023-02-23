@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ackee-tracker": "^5.1.0",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
