@@ -1,4 +1,5 @@
 .dockerignore
 node_modules
 .gitignore
-README.mode
+README.md
+LICENSE
