@@ -13,3 +13,4 @@ Add your quote to the end of `quotes.json` with the format:
   "author": "Stephen Hawking"
 }
 ```
+`"author"` may be left blank (`""`) but must be included
