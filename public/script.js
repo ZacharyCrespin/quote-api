@@ -1,4 +1,4 @@
-fetch("https://random-quote-ta5ihvbchq-uc.a.run.app")
+fetch("/api")
   .then((response) => response.json())
   .then((data) => {
     document.getElementById("quoteQuote").innerText = `“${data.quote}”`;
