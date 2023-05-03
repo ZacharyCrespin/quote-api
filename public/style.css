@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC&display=swap");
+
+:root {
+  --white: #fdf7f1;
+  --black: #241c15;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  max-width: 75%;
+}
+
+h1 {
+  font-family: "Patrick Hand SC", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 90%;
+  margin: 0.25em;
+}
+
+p {
+  font-family: "Neucha", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0.25em;
+  text-align: right;
+}
