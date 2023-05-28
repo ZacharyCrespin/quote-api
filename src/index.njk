@@ -6,16 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quotes | Zachary Crespin</title>
   <meta name="description" content="A random quote every time.">
+  <meta name="color-scheme" content="light dark">
   <link rel="shortcut icon" href="icon.png" type="image/x-icon">
   <link rel="icon" media="(prefers-color-scheme: dark)" href="icon-dark.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+  <meta name="author" content="Zachary Crespin">
+  <meta name="generator" content="{{ eleventy.generator }}">
+  <style>
+    {% include "./style.css" %}
+  </style>
 </head>
 <body>
   <div id="quote">
     <h1 id="quoteQuote"></h1>
     <p id="quoteAuthor"></p>
   </div>
-  <script src="script.js"></script>
+  <script>
+    {% include "./script.js" %}
+  </script>
   <script async src="https://analytics.zacharyc.site/tracker.js" data-ackee-server="https://analytics.zacharyc.site" data-ackee-domain-id="bb5f494f-3018-4678-8f8a-58bc3de6c14c"></script>
 </body>
 </html>

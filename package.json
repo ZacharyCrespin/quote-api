@@ -8,9 +8,14 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@sherby/eleventy-plugin-files-minifier": "^1.1.1"
+  }
 }
