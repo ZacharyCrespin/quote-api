@@ -1,5 +1,5 @@
 # quote-api
-a random quote every time
+A random quote every time.
 
 ## View the website
 [quotes.zacharyc.site](http://quotes.zacharyc.site/)
