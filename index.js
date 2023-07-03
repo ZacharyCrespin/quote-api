@@ -3,8 +3,6 @@ const app = express();
 
 const fs = require('fs');
 
-app.use(express.static('public'));
-
 app.get('/api', (req, res) => {
   fs.readFile('quotes.json', function(err, quotes) {
     if (err) {
