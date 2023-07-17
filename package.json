@@ -8,7 +8,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node index.js",
+    "dev": "netlify dev",
+    "start": "eleventy --serve",
     "build": "eleventy"
   },
   "keywords": [],

@@ -1,4 +1,4 @@
-fetch("https://quotes.zacharyc.site/api")
+fetch("/api")
   .then((response) => response.json())
   .then((data) => {
     document.getElementById("quoteQuote").innerText = `“${data.quote}”`;
