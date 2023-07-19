@@ -1,5 +1,4 @@
 node_modules
-.netlify
 package-lock.json
 public/index.html
 public/404.html
