@@ -1,17 +1,7 @@
 # quote-api
 A random quote every time.
 
-## View the website
-[quotes.zacharyc.site](http://quotes.zacharyc.site/)
-## Use the API
-[quotes.zacharyc.site/api](https://quotes.zacharyc.site/api/)
+> [!IMPORTANT]  
+> This project is archived and the api shutdown.
 
-## Add your quote
-Add your quote to the end of `quotes.json` with the format:
-```
-{
-  "quote": "Quiet people have the loudest minds.",
-  "author": "Stephen Hawking"
-}
-```
-`"author"` may be left blank (`""`) but must be included
+Don't worry for now you can see the quotes at [zacharyc.site/quote](https://zacharyc.site/quote/).
